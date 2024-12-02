@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #191b1f;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.css-1toxriw-MuiList-root-MuiMenu-list{
+  padding: 0px;
+  border-radius: 0px;
+  border: 0px;
+  background: #222429 ;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
