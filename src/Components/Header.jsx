@@ -2,7 +2,6 @@ import React from "react";
 import banner1 from "../assets/asset_14.svg";
 import banner3 from "../assets/asset_16.svg";
 import poster from "../assets/asset_0.jpeg";
-import video from "../assets/video.mp4";
 import Button from "./Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
 
@@ -72,7 +71,7 @@ const Header = () => {
                 <video
                   className="block absolute top-0 left-0 rounded-2xl"
                   autoPlay
-                  src={video}
+                  src='https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/meet_bryce.mp4'
                   preload="none"
                   poster={poster}
                   muted
@@ -86,7 +85,7 @@ const Header = () => {
             <div className="absolute max-md:w-[500px] max-md:h-[500px] max-sm:w-[330px] max-sm:h-[330px] ">
               <video
                 className="block top-0 rounded-2xl"
-                src={video}
+                src='https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/meet_bryce.mp4'
                 preload="none"
                 poster={poster}
                 muted

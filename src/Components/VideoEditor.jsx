@@ -1,6 +1,5 @@
 import React from "react";
 import frame from "../assets/asset_18.svg";
-import videoAi from "../assets/videoeditor.mp4";
 import videoPoster from "../assets/VideoEditor.webp";
 import Button from "./Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
@@ -22,7 +21,7 @@ const VideoEditor = () => {
               poster={videoPoster}
               controls
               playsInline
-              src={videoAi}
+              src='https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/happy-halloween.mp4'
             ></video>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+
 // Common Compoents & Components
 import { ImageSection, TextSection } from "../Components/Common/UserPerson";
 import Header from "../Components/Header";
@@ -8,6 +9,7 @@ import Button from "../Components/Common/Button";
 import Secure from "../Components/Secure";
 import AiFeature from "../Components/AiFeature";
 import SkyRocket from "../Components/SkyRocket";
+
 // Assets
 import poster from "../assets/asset_0.jpeg";
 import img1 from "../assets/asset_1.jpeg";
@@ -19,7 +21,7 @@ import imgBg1 from "../assets/asset_20.svg";
 import bg1 from "../assets/asset_21.svg";
 import imgBg2 from "../assets/asset_22.svg";
 import bg2 from "../assets/asset_23.svg";
-import video from "../assets/video.mp4";
+
 // Icons
 import { AiOutlineDiscord } from "react-icons/ai";
 import { MdOutlineArrowForward } from "react-icons/md";
@@ -198,7 +200,7 @@ const Home = () => {
         <div className="relative max-w-full h-full right-0 z-[2] max-xl:flex max-xl:flex-col max-xl:justify-center max-xl:items-center max-xl:px-[20px] max-sm:p-0">
           <div className=" max-w-[540px] top-[10px] ">
             <video
-              src={video}
+              src='https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/happy-halloween.mp4'
               preload="none"
               controls
               playsInline
