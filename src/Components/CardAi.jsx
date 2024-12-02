@@ -13,10 +13,6 @@ import {
 } from "react-icons/md";
 
 const CardAi = () => {
-  const handleButtonClick = () => {
-    console.log("Button clicked without reloading the page");
-  };
-
   return (
     <div className="flex justify-center items-center pt-16 px-16 flex-col relative z-[1] max-sm:py-[10px] max-sm:px-0">
       <div className="flex flex-row flex-wrap justify-center items-start w-full gap-8 max-sm:px-[20px]">
@@ -56,7 +52,6 @@ const CardAi = () => {
         text="Sign Up For Free"
         icon={MdOutlineArrowForward}
         iconSize="w-6 h-6"
-        onClick={handleButtonClick}
       />
     </div>
   );

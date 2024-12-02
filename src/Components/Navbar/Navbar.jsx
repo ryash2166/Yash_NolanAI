@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import MobileMenu from "./MobileMenu.jsx";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -8,13 +9,18 @@ const Navbar = () => {
       <div className="h-full flex justify-between items-center m-auto max-sm:!mr-4 sm:px-6">
         <div className="flex justify-center items-center">
           <MobileMenu className="flex items-center justify-center " />
-          <img src={logo} alt="Logo" />
+          <NavLink to="/">
+            <img src={logo} alt="Logo" />
+          </NavLink>
         </div>
         <div className="flex text-[#f5f2f0] max-w-full">
           <ul className="flex items-center justify-center h-9 max-lg:hidden">
-            <li className="m-3 cursor-pointer list-none text-base font-normal">
+            <NavLink
+              to="/aboutus"
+              className="m-3 cursor-pointer list-none text-base font-normal"
+            >
               About Us
-            </li>
+            </NavLink>
             <li className="m-3 cursor-pointer list-none text-base font-normal">
               Pricing
             </li>

@@ -5,10 +5,6 @@ import Button from "./Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
 
 const VideoEditor = () => {
-  const handleButtonClick = () => {
-    console.log("Button clicked without reloading the page");
-  };
-
   return (
     <div className="flex pt-10 px-16 relative justify-center gap-8 max-xl:flex-col max-xl:px-[20px] max-sm:py-[10px] max-sm:px-[20px] max-sm:flex-col">
       <div className="relative z-[2] max-xl:px-[20px] max-xl:flex max-xl:flex-col max-xl:justify-center max-xl:items-center max-sm:p-0">
@@ -21,7 +17,7 @@ const VideoEditor = () => {
               poster={videoPoster}
               controls
               playsInline
-              src='https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/happy-halloween.mp4'
+              src="https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/happy-halloween.mp4"
             ></video>
           </div>
         </div>
@@ -42,7 +38,6 @@ const VideoEditor = () => {
           text="Join waitlist now!"
           icon={MdOutlineArrowForward}
           iconSize="w-6 h-6"
-          onClick={handleButtonClick}
         />
       </div>
     </div>

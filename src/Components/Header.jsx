@@ -6,10 +6,6 @@ import Button from "./Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
 
 const Header = () => {
-  const handleButtonClick = () => {
-    console.log("Button clicked without reloading the page");
-  };
-
   return (
     <section className="relative ">
       <div className="relative h-full">
@@ -42,7 +38,6 @@ const Header = () => {
                 text="Start Creating"
                 iconSize="w-6 h-6"
                 icon={MdOutlineArrowForward}
-                onClick={handleButtonClick}
               />
             </a>
           </div>
@@ -71,7 +66,7 @@ const Header = () => {
                 <video
                   className="block absolute top-0 left-0 rounded-2xl"
                   autoPlay
-                  src='https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/meet_bryce.mp4'
+                  src="https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/meet_bryce.mp4"
                   preload="none"
                   poster={poster}
                   muted
@@ -85,7 +80,7 @@ const Header = () => {
             <div className="absolute max-md:w-[500px] max-md:h-[500px] max-sm:w-[330px] max-sm:h-[330px] ">
               <video
                 className="block top-0 rounded-2xl"
-                src='https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/meet_bryce.mp4'
+                src="https://nolan-space.sfo3.cdn.digitaloceanspaces.com/assets/meet_bryce.mp4"
                 preload="none"
                 poster={poster}
                 muted

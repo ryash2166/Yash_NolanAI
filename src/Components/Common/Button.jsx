@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router";
 
 const Button = ({
   text,
   icon: Icon,
-  onClick,
+  to = "/",
   iconSize = "w-7 h-7", // Default icon size
   className = "",
   ...props
@@ -20,10 +21,9 @@ const Button = ({
   };
 
   return (
-    <button
-      type="button" // Ensure the button is not of type "submit"
+    <Link
+      to={to} // Routing with react-router
       className={`text-white bg-[#1d6ee3] border-[#1d6ee3] border-[1px] text-center text-base font-semibold !py-3 !px-4 rounded-[96px] inline-flex justify-center items-center max-md:p-3 ${className}`}
-      onClick={handleClick}
       {...props}
     >
       <div className="flex-1 h-6 pl-3 pr-2  leading-[1.2em] justify-center items-center gap-1 flex">
@@ -34,7 +34,7 @@ const Button = ({
           <Icon className={`${iconSize}`} />
         </span>
       )}
-    </button>
+    </Link>
   );
 };
 
@@ -42,7 +42,7 @@ const Button = ({
 Button.propTypes = {
   text: PropTypes.string.isRequired, // Text for the button
   icon: PropTypes.elementType, // Optional icon component
-  onClick: PropTypes.func, // Click handler
+  to: PropTypes.string, // URL path for routing
   className: PropTypes.string, // Additional custom classes
 };
 

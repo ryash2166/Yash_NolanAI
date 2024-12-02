@@ -122,10 +122,6 @@ const AiFeature = () => {
     },
   ];
 
-  const handleButtonClick = () => {
-    console.log("Button clicked without reloading the page");
-  };
-
   return (
     <div>
       {/* Tab Header */}
@@ -177,7 +173,6 @@ const AiFeature = () => {
           text="All Features"
           icon={MdOutlineArrowForward}
           iconSize="w-6 h-6"
-          onClick={handleButtonClick}
         />
       </div>
     </div>
