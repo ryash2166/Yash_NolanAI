@@ -1,6 +1,6 @@
 import React from "react";
-import Cards from "./Common/Cards";
-import Button from "./Common/Button";
+import Cards from "../Common/Cards";
+import Button from "../Common/Button";
 
 // Icons
 import {

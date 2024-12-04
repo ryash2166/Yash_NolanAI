@@ -2,13 +2,13 @@ import React from "react";
 
 // Common Compoents & Components
 import { ImageSection, TextSection } from "../Components/Common/UserPerson";
-import Header from "../Components/Header";
-import VideoEditor from "../Components/VideoEditor";
-import CardAi from "../Components/CardAi";
+import Header from "../Components/HomeComponent/Header";
+import VideoEditor from "../Components/HomeComponent/VideoEditor";
+import CardAi from "../Components/HomeComponent/CardAi";
 import Button from "../Components/Common/Button";
-import Secure from "../Components/Secure";
-import AiFeature from "../Components/AiFeature";
-import SkyRocket from "../Components/SkyRocket";
+import Secure from "../Components/HomeComponent/Secure";
+import AiFeature from "../Components/HomeComponent/AiFeature";
+import SkyRocket from "../Components/HomeComponent/SkyRocket";
 
 // Assets
 import poster from "../assets/asset_0.jpeg";
@@ -25,7 +25,7 @@ import bg2 from "../assets/asset_23.svg";
 // Icons
 import { AiOutlineDiscord } from "react-icons/ai";
 import { MdOutlineArrowForward } from "react-icons/md";
-import ReviewSlider from "../Components/ReviewSlider";
+import ReviewSlider from "../Components/HomeComponent/ReviewSlider";
 
 const Home = () => {
   return (
@@ -38,7 +38,7 @@ const Home = () => {
           <div className="text-center text-white">
             <h4 className="text-[40px] font-extralight">
               Leading the charge in
-              <span className="text-[40px] font-bold">Ethical AI</span>
+              <span className="text-[40px] font-bold"> Ethical AI</span>
             </h4>
             <p className="text-2xl">
               At NolanAI, we prioritize the ethical implications of AI in the

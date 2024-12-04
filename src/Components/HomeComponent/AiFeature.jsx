@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import iconbg from "../assets/asset_24.svg";
-import Button from "./Common/Button";
+import iconbg from "../../assets/asset_24.svg";
 
 // Icons
 import {
@@ -20,6 +19,7 @@ import {
   MdOutlineSchedule,
   MdOutlineFormatListBulleted,
 } from "react-icons/md";
+import Button from "../Common/Button";
 
 const AiFeature = () => {
   const [activeTab, setActiveTab] = useState("Screenwriters");

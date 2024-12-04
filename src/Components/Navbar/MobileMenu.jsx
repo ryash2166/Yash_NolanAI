@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { NavLink } from "react-router";
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,33 +48,33 @@ const MobileMenu = () => {
             className="text-white p-6 border-t-[1px] border-[#1a1d24b8] cursor-pointer"
             onClick={handleMenuItemClick}
           >
-            <a className="text-2xl font-medium" href="#about">
+            <NavLink className="text-2xl font-medium" to="/aboutus">
               About Us
-            </a>
+            </NavLink>
           </li>
           <li
             className=" text-white p-6 border-t-[1px] border-[#1a1d24b8] cursor-pointer"
             onClick={handleMenuItemClick}
           >
-            <a className="text-2xl font-medium" href="#pricing">
+            <NavLink className="text-2xl font-medium" to="/pricing">
               Pricing
-            </a>
+            </NavLink>
           </li>
           <li
             className=" text-white p-6 border-t-[1px] border-[#1a1d24b8] cursor-pointer"
             onClick={handleMenuItemClick}
           >
-            <a className="text-2xl font-medium" href="#features">
+            <NavLink className="text-2xl font-medium" to="/features">
               Features
-            </a>
+            </NavLink>
           </li>
           <li
             className=" text-white p-6 border-t-[1px] border-[#1a1d24b8] cursor-pointer"
             onClick={handleMenuItemClick}
           >
-            <a className="text-2xl font-medium" href="#blog">
+            <NavLink className="text-2xl font-medium" to="/blog">
               Blog
-            </a>
+            </NavLink>
           </li>
         </ul>
       )}

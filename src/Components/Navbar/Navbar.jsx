@@ -21,18 +21,30 @@ const Navbar = () => {
             >
               About Us
             </NavLink>
-            <li className="m-3 cursor-pointer list-none text-base font-normal">
+            <NavLink
+              to="/pricing"
+              className="m-3 cursor-pointer list-none text-base font-normal"
+            >
               Pricing
-            </li>
-            <li className="m-3 cursor-pointer list-none text-base font-normal">
+            </NavLink>
+            <NavLink
+              to="/features"
+              className="m-3 cursor-pointer list-none text-base font-normal"
+            >
               Features
-            </li>
-            <li className="m-3 cursor-pointer list-none text-base font-normal">
+            </NavLink>
+            <NavLink
+              to="/project"
+              className="m-3 cursor-pointer list-none text-base font-normal"
+            >
               New Project
-            </li>
-            <li className="m-3 cursor-pointer list-none text-base font-normal">
+            </NavLink>
+            <NavLink
+              to="/blog"
+              className="m-3 cursor-pointer list-none text-base font-normal"
+            >
               Blog
-            </li>
+            </NavLink>
           </ul>
           <div className="ml-6 p-2 bg-[#f4f4f7] rounded-[96px] inline-flex items-center justify-center cursor-pointer">
             <div className="px-2 gap-1 flex justify-center items-center cursor-pointer max-md:gap-0">

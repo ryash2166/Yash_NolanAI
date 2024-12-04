@@ -1,7 +1,7 @@
 import React from "react";
-import frame from "../assets/asset_18.svg";
-import videoPoster from "../assets/VideoEditor.webp";
-import Button from "./Common/Button";
+import frame from "../../assets/asset_18.svg";
+import videoPoster from "../../assets/VideoEditor.webp";
+import Button from "../Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
 
 const VideoEditor = () => {

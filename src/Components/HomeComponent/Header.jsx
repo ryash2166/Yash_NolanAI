@@ -1,8 +1,8 @@
 import React from "react";
-import banner1 from "../assets/asset_14.svg";
-import banner3 from "../assets/asset_16.svg";
-import poster from "../assets/asset_0.jpeg";
-import Button from "./Common/Button";
+import banner1 from "../../assets/asset_14.svg";
+import banner3 from "../../assets/asset_16.svg";
+import poster from "../../assets/asset_0.jpeg";
+import Button from "../Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
 
 const Header = () => {

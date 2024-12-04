@@ -1,6 +1,5 @@
 import React from "react";
-import nolan_1 from "../assets/asset_11.png";
-import nolan_2 from "../assets/logo.svg";
+import nolan_2 from "../../assets/logo.svg";
 import { NavLink } from "react-router-dom";
 import { FaDiscord } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
@@ -13,8 +12,7 @@ const Footer = () => {
     <footer className="w-full relative inline-flex flex-col justify-start items-start gap-16 ">
       <div className="p-16 pb-4 self-stretch justify-end gap-6 items-center inline-flex max-sm:flex-col">
         <div className="inline-flex flex-col justify-center items-start gap-4">
-          <img src={nolan_1} alt="" className="max-md:hidden" />
-          <img src={nolan_2} alt="" className="md:hidden" />
+          <img src={nolan_2} alt="" className="" />
         </div>
         <div className="inline-flex flex-1 flex-col justify-center items-center gap-1 text-center w-full">
           <div className="text-[#e9ebf2] text-sm font-normal">

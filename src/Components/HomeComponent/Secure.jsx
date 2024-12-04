@@ -1,5 +1,5 @@
 import React from "react";
-import secure from "../assets/shield.webp";
+import secure from "../../assets/shield.webp";
 
 const Secure = () => {
   return (

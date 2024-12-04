@@ -32,7 +32,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="flex justify-center items-center rleative ">
-        <div className="px-[176px] mb-5 text-[#f5f2f0]  max-sm:p-4 ">
+        <div className="px-[176px] mb-5 text-[#f5f2f0] max-sm:p-4 ">
         <h3 className="text-[40px] max-sm:text-[32px] mt-6 mb-2 font-bold break-words">Our mission</h3>
         <p className="leading-8 text-[17px] font-light">
           Our mission is to empower filmmakers at every stage of pre-production

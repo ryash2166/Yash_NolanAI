@@ -10,25 +10,15 @@ const Button = ({
   className = "",
   ...props
 }) => {
-  const handleClick = (event) => {
-    // Prevent default form submission behavior
-    event.preventDefault();
-
-    // Call the provided onClick handler
-    if (onClick) {
-      onClick(event);
-    }
-  };
-
   return (
     <Link
       to={to} // Routing with react-router
-      className={`text-white bg-[#1d6ee3] border-[#1d6ee3] border-[1px] text-center text-base font-semibold !py-3 !px-4 rounded-[96px] inline-flex justify-center items-center max-md:p-3 ${className}`}
+      className={`text-white bg-[#1d6ee3] text-center text-base font-semibold !py-3 !px-4 rounded-[96px] inline-flex justify-center items-center max-md:p-3 hover:bg-[#1d70e3c5] duration-100 ease-in ${className}`}
       {...props}
     >
-      <div className="flex-1 h-6 pl-3 pr-2  leading-[1.2em] justify-center items-center gap-1 flex">
+      <span className="flex-1 h-6 pl-3 pr-2  leading-[1.2em] justify-center items-center gap-1 flex">
         {text}
-      </div>
+      </span>
       {Icon && (
         <span>
           <Icon className={`${iconSize}`} />
