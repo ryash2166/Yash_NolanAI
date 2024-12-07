@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Toggle = ({ options, onToggle }) => {
   
-  const [selected, setSelected] = useState(options[1]?.value);
+  const [selected, setSelected] = useState(options[0]?.value);
 
   const handleToggle = (value) => {
     setSelected(value);

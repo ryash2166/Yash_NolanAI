@@ -86,6 +86,7 @@ const Home = () => {
               description="Providing tailored solutions to overcome writer's block and streamlining your creative process."
               buttonProps={{
                 className: "w-fit flex",
+                to:'/features',
                 text: "NolanAI for Screenwriters",
                 icon: MdOutlineArrowForward,
                 iconSize: "w-6 h-6",
@@ -95,7 +96,7 @@ const Home = () => {
           </div>
 
           <div className="flex gap-8 relative z-[1] max-sm:px-[20px] max-sm:py-[10px] max-md:block max-sm:flex-col max-sm:items-start max-sm:justify-start">
-            <div className="absolute left-[285.5px] -top-[133px] max-xl:left-auto max-md:hidden">
+            <div className="absolute left-[285.5px] -top-[133px] max-xl:left-auto max-lg:hidden">
               <img src={bg1} alt="" className="" />
             </div>
 
@@ -120,6 +121,7 @@ const Home = () => {
               description="revolutionizing the filmmaking process for producers: cutting costs and resources by automating script analysis. Helping create outstanding pitch decks resonating with your project"
               buttonProps={{
                 className: "w-fit flex",
+                to:'/features',
                 text: "NolanAI for Producers",
                 icon: MdOutlineArrowForward,
                 iconSize: "w-6 h-6",
@@ -129,7 +131,7 @@ const Home = () => {
           </div>
 
           <div className="flex gap-8 relative z-[1] max-sm:px-[20px] max-sm:py-[10px] max-md:block max-sm:flex-col max-sm:items-start max-sm:justify-start">
-            <div className="absolute left-[450px] -top-[133px] max-xl:left-auto max-md:hidden">
+            <div className="absolute left-[450px] -top-[133px] max-xl:left-auto max-lg:hidden">
               <img src={bg2} alt="" className="" />
             </div>
             {/* Image Section */}
@@ -152,6 +154,7 @@ const Home = () => {
               description="saving you valuable time by automating repetitive tasks and facilitating seamless collaboration with the rest of your team. assisting in crafting the perfect schedule for a smooth production workflows of your creative vision."
               buttonProps={{
                 className: "w-fit flex",
+                to:'/features',
                 text: "NolanAI for Directors",
                 icon: MdOutlineArrowForward,
                 iconSize: "w-6 h-6",
@@ -185,6 +188,7 @@ const Home = () => {
               voice.
             </p>
             <Button
+              to="/pricing"
               className=""
               text="View premium plans"
               icon={MdOutlineArrowForward}

@@ -1,10 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const { isAuthenticated } = useAuth0();
 
   // Toggle dropdown
   const toggleDropdown = () => {
@@ -44,6 +46,16 @@ const MobileMenu = () => {
 
       {isOpen && (
         <ul className="absolute left-0 mt-[5px] w-[700px] max-sm:w-44 max-sm:ml-5 bg-[#222429] shadow-lg z-10 overflow-y-auto ">
+          {isAuthenticated && (
+            <li
+              className="text-white p-6 border-t-[1px] border-[#1a1d24b8] cursor-pointer"
+              onClick={handleMenuItemClick}
+            >
+              <NavLink className="text-2xl font-medium" to="/aboutus">
+                Dashboard
+              </NavLink>
+            </li>
+          )}
           <li
             className="text-white p-6 border-t-[1px] border-[#1a1d24b8] cursor-pointer"
             onClick={handleMenuItemClick}

@@ -45,3 +45,7 @@ p {
   unicode-bidi: isolate;
 }
 
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}

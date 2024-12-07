@@ -7,6 +7,7 @@ import Router from "./Router/Router";
 import Pricing from "./Pages/Pricing";
 import Features from "./Pages/Features";
 import Blog from "./Pages/Blog";
+import Testimonials from "./Pages/Testimonials";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -18,6 +19,7 @@ const App = () => {
         { path: "/aboutus", element: <AboutUs /> },
         { path: "/pricing", element: <Pricing /> },
         { path: "/features", element: <Features /> },
+        { path: "/testimonials", element: <Testimonials /> },
         { path: "/blog", element: <Blog /> },
       ],
     },

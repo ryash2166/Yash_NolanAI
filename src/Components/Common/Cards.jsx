@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import logo from "../../assets/asset_25.svg";
+import { Link } from "react-router";
 
-const Cards = ({ href, icon: Icon, title, description }) => {
+const Cards = ({ to, icon: Icon, title, description }) => {
   return (
-    <a
-      href={href}
+    <Link
+      to={to}
       className="flex flex-grow flex-shrink basis-[415px] max-w-[415px]"
     >
       <div className="flex flex-col items-center justify-center gap-8">
@@ -26,12 +27,12 @@ const Cards = ({ href, icon: Icon, title, description }) => {
           {description}
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 
 Cards.propTypes = {
-  href: PropTypes.string.isRequired, // Link for the card
+  to: PropTypes.string.isRequired, // Link for the card
   icon: PropTypes.elementType, // Optional icon component
   title: PropTypes.string.isRequired, // Title for the card
   description: PropTypes.string.isRequired, // Description text for the card

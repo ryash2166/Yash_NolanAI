@@ -14,7 +14,7 @@ const ImageSection = ({
       <img
         src={imgBg}
         alt=""
-        className="w-[486px] h-[632px]   max-sm:left-0 max-sm:w-fit max-sm:top-0"
+        className="w-[486px] h-[632px] max-sm:left-0 max-sm:w-fit max-sm:top-0"
       />
       {/* Foreground Image with Perspective */}
       <div

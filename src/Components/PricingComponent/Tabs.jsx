@@ -41,18 +41,18 @@ const Tabs = ({ data }) => {
           className="inline-flex  min-w-[300px] flex-1 shadow-custom  rounded-2xl flex-col justify-start items-start bg-[#2b2d33] text-white"
         >
           <div className="w-full">
-            <div className="inline-flex self-stretch justify-start items-center border-b-[1px] border-[#1a1d2470]">
+            <div className="inline-flex self-stretch w-full justify-start items-center border-b-[1px] border-[#1a1d2470]">
               <div
                 className="w-1 h-7 relative rounded-r-[5px]"
                 style={{ backgroundColor: getLabelColor(plan.title) }}
               ></div>
-              <div className="flex-1 gap-2 pl-2 py-[16px] justify-between inline-flex items-start">
+              <div className="flex-1  gap-2 pl-2 py-[16px] justify-between inline-flex items-start">
                 <div className="self-stretch text-2xl break-words font-bold">
                   {plan.title}
                 </div>
                 {/* Toast for "Best Value" */}
                 {plan.title === "Creator" && (
-                  <div className=" bg-[#e4931d] text-sm font-medium !px-3 !py-1 rounded-t-[4px]">
+                  <div className=" bg-[#e4931d] text-sm font-medium !px-3  !py-1 rounded-t-[4px]">
                     Best Value
                   </div>
                 )}
