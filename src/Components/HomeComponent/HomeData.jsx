@@ -18,6 +18,25 @@ import {
   MdOutlineBolt,
 } from "react-icons/md";
 
+import adam from "../../assets/Testimonials/Adam.png";
+import boubkar from "../../assets/Testimonials/Boubkar.png";
+import bryce from "../../assets/Testimonials/Bryce.png";
+import damarrus from "../../assets/Testimonials/Damarrus.png";
+import damon from "../../assets/Testimonials/Damon.png";
+import daniel from "../../assets/Testimonials/Daniel.png";
+import hj from "../../assets/Testimonials/HJ.png";
+import michael from "../../assets/Testimonials/Michael.png";
+import mike from "../../assets/Testimonials/Mike.png";
+import patrick from "../../assets/Testimonials/Patrick.png";
+import rm from "../../assets/Testimonials/RM.png";
+import sean from "../../assets/Testimonials/Sean.png";
+import thomas from "../../assets/Testimonials/Thomas.png";
+import undercover from "../../assets/Testimonials/Undercover.png";
+import imdb from "../../assets/asset_6.svg";
+import insta from "../../assets/asset_7.svg";
+import world from "../../assets/asset_9.svg";
+import x from "../../assets/asset_31.svg";
+
 export const tabs = [
   {
     title: "Screenwriters",
@@ -118,27 +137,27 @@ export const items = [
   {
     name: "H.J. Grayson",
     title: "Writer • Producer • Director",
-    review_img_1: "/src/assets/asset_6.svg",
-    review_img_2: "/src/assets/asset_7.svg",
+    review_img_1: imdb,
+    review_img_2: insta,
     review_1:
       "There are other AI tools, but NolanAI is creating a space for a mom in Ohio or Thailand who has a story to tell and owns the process in which our story gets made.NolanAI gives folks from all backgrounds a platform to use fundamental tools and technology in a virtual space to create and at least have a fighting chance to be represented. Take your future into your own hands. Then when you can hire those below-the-line crew members or artists then HIRE them. Use your power for good!",
     review_2: "Use your power for good!",
-    image: "/src/assets/HJ.png",
+    image: hj,
   },
   {
     name: "Boubkar Benzabat",
     title: "Director of Photography • Editor • Producer • Director",
-    review_img_1: "/src/assets/asset_6.svg",
-    review_img_2: "/src/assets/asset_9.svg",
+    review_img_1: imdb,
+    review_img_2: world,
     review_1:
       "NOLANAI is the best value-for-money AI tool you can find for preparing and developing your movie. It's exciting to be part of a pioneering adventure that will shape the future of the film industry. The NOLANAI team is dedicated, regularly improving the tools, and they are highly communicative and responsive when it comes to solving any issues users may face. The 'Script Coverage' and 'Plot Hole' tools are like a compass, helping identify the most critical problems in your script. But what impresses me most is the Pitch Deck creator tool. I used to hate creating Pitch Decks, but NOLANAI makes it fun, easy, fast, and creative!",
-    image: "/src/assets/boubkar.jpeg",
+    image: boubkar,
   },
   {
     name: "Michael D. Korolenko",
     title: "Writer • Producer • Director",
-    review_img_1: "/src/assets/asset_6.svg",
-    review_img_2: "/src/assets/asset_9.svg",
+    review_img_1: imdb,
+    review_img_2: world,
     review_1:
       "I am incredibly pleased with NolanAI for scriptwriting—so much so that I'm recommending it to my college scriptwriting class.",
     review_2:
@@ -146,8 +165,126 @@ export const items = [
     review_3:
       "The higher-tier subscriptions of NolanAI include fantastic features like image generation and storyboarding, which are well worth the investment. Overall, it's the perfect scriptwriting software for me. The storyboarding, character and bio generation features are outstanding. The AI-generated character profile for Alexandra, one of my characters, impressed both me and my colleague.",
     review_4:
-      "The Script Editor allows writers to refine their scripts directly within the platform, and the Script Doctor tool offers scene-by-scene feedback, highlighting strengths and weaknesses, with suggestions that enhance your screenplay without taking over. You’re free to use the suggestions or ignore them, but many are spot-on for crafting a final draft you can confidently send to a studio.",
-    image: "/src/assets/michael.jpeg",
+      "The Script Editor allows writers to refine their scripts directly within the platform, and the Script Doctor tool offers scene-by-scene feedback, highlighting strengths and weaknesses, with suggestions that enhance your screenplay without taking over. You're free to use the suggestions or ignore them, but many are spot-on for crafting a final draft you can confidently send to a studio.",
+    image: michael,
+  },
+  {
+    name: "R.M - Reel Whisperer",
+    title: "Producer",
+    review_img_1: imdb,
+    review_img_2: world,
+    review_1:
+      "NolanAI has transformed the way I produce films. The script breakdown and scheduling features have automated tedious tasks, allowing my team to focus on what truly matters-making the movie. The efficiency and transparency brought by NolanAI has saved us time and resources and allowed us to places those resources back into production. Every little bit counts and we have felt the ease of burden on our below the line. As a producer in Bollywood, managing productions is a constant challenge, NolanAI has become an indispensable part of my workflow. R.M!",
+    image: rm,
+  },
+  {
+    name: "Sean Kael williams",
+    title: "Actor • Writer • Producer",
+    review_img_1: imdb,
+    review_img_2: insta,
+    review_1:
+      "I saw posts about NolanAI on Instagram and did the free trial to give it a try. So far it's been fantastic especially if I'm stuck with writing. The coverage has helped me with trying to figure out plot holes in my screenplays. The feature I have been most impressed with is the pitch deck builder. What usually takes me weeks now takes a day.",
+    review_2: "The amount of time it has saved me has been game changing.",
+    image: sean,
+  },
+  {
+    name: "Undercover Director 🎥",
+    title: "Director",
+    review_img_1: imdb,
+    review_img_2: world,
+    review_1:
+      "On the current film I am directing we have been using NolanAI in ways that even theirI team was surprised to hear about. The automated storyboard generation in particular. Of course we used it for my storyboarding of the film as a first go but our department heads have been using it to come up with their own unique and creative ideas for the film. Art department. Set design. Hair and makeup as well as my DP. We are all messing around with it and as a result have had an explosion of ideas and creativity. With all the fear, apprehension of new technology, and too many options offering too little, NolanAI has been a fresh and exciting new face. Even allowing me to explore innovative suggestions for camera angles and scene compositions that elevate the visual storytelling of my film. The pitch deck and coverage features were excellent in development, but we have also been using them onset to explore on the day and in the moment possibilities. Creatively liberating to use. I am thrilled to see where this goes.",
+    image: undercover,
+  },
+  {
+    name: "Thomas Beaudoin",
+    title: "Actor • Writer • Producer • Director",
+    review_img_1: imdb,
+    review_img_2: x,
+    review_1:
+      "Artificial Intelligence accessible to the public has recently been at the forefront of artistic discussions, and with good reason. The concerns about its impact are valid. This is where NolanAI steps in with an ethical approach in the realm of filmmaking. NolanAI's ability to break down scripts at incredible speed significantly enhances time efficiency for writers. Its comprehensive script coverage is a fantastic tool that helps filmmakers identify and refine areas that may need attention by providing subjective yet specific insights. It even catches the subtext, deeper meanings and hidden metaphors intended by the writer. That said, with or without AI, as independent artists in the industry, the ultimate goal is to be as productive as possible on our own which then propels us to team up with like-minded creatives, because filmmaking is, and will always remain, a collaborative art form. NolanAI is that convenient “assistant”, eager to help you achieve that.",
+    image: thomas,
+  },
+  {
+    name: "Patrick Muldoon",
+    title: "Actor • Producer • Writer",
+    review_img_1: imdb,
+    review_img_2: insta,
+    review_1:
+      "As an actor having a script breakdown is a priceless commodity. Understanding the relationships between characters and how they interact with the story determines how I will navigate a role. NolanAI makes it easy. It streamlines the detective work that is needed for me to give the story and character what it deserves. As a producer, NolanAI has been a lifesaver in coverage. I am able to get a detailed analysis of a script in seconds that is absent of biases, prejudices or otherwise subjective input. I need to know if the structure is sound, if the story is coherent, and if the characters are three dimensional. From the scoring, breakdown, and feedback provided by NolanAI, I can save precious time and I get right into the nuts and bolts of development. Moving from development to pre production, the features of coverage, schedule, treatment, pitch deck and storyboard have been not only cost savers but creative amplifiers that have enabled deeper conversations between department heads. The clarity of artistic vision on projects using NolanAI has been crystal clear.",
+    image: patrick,
+  },
+  {
+    name: "Adam G. Simon",
+    title: "Writer • Producer • Actor",
+    review_img_1: imdb,
+    review_img_2: insta,
+    review_1:
+      "NolanAI has completely revolutionized the way I go from script to screen—it's not just a tool; it's my creative partner.",
+    review_2:
+      "This platform has schooled me on the entire filmmaking process beyond just my role as a writer and producer. Thanks to its awesome co-piloting feature, I've smashed through writer's block and sparked epic collaborations with other writers. Nolan's script coverage is a game-changer, spotting plot holes and fine-tuning character arcs like nothing else. And while the storyboard, deck creation, and budgeting tools are still growing, they're already starting to flip the script on Hollywood's old-school power dynamics. It's more than disruptive—it's a badass movement back to the creators. Seriously, it's a no-brainer: if you're not using Nolan, you're missing out.",
+    review_3:
+      "I recommend it to everyone looking to make their mark as a storyteller.",
+    image: adam,
+  },
+  {
+    name: "Damarrus Grant",
+    title: "Actor • Director • Writer",
+    review_img_1: imdb,
+    review_img_2: insta,
+    review_1:
+      "I believe that NolanAI will serve as a pioneer in producing the next generation of screenwriters. The software serves as a co-pilot for your ideas, enhances creativity, and allows you to complete a polished script in no time! My experience in using NolanAI has been wonderful thus far. They also have excellent support staff and technical support who are also excited about helping you to navigate your Nolan Ai experience with ease and comfort!",
+    review_2: "Thank you again!",
+    image: damarrus,
+  },
+  {
+    name: "Daniel Farag",
+    title: "Actor • Producer • Writer",
+    review_img_1: imdb,
+    review_img_2: insta,
+    review_1:
+      "So far when I use NolanAi, I feel like I've stepped into the future.",
+    review_2:
+      "Basically a one stop tool for writers/directors/producers..from aspiring to veteran.",
+    review_3:
+      "With a few clicks and in some cases in seconds, I get coverage, script notes, story boards..even a shooting schedule.",
+    review_4: "An amazing application. I'm excited to watch it's evolution.",
+    image: daniel,
+  },
+  {
+    name: "Damon H. Chung",
+    title: "Cinematographer • Producer",
+    review_img_1: imdb,
+    review_img_2: world,
+    review_1:
+      "NolanAI has been a transformative tool for my pre-production process. The automatic script breakdown and scheduling features not only streamline our pre-production but also significantly saves time for the assistant directors, allowing for a more efficient planning phase. The coverage report is equally impressive, providing a quick yet thorough screening of projects, which is crucial in deciding which scripts warrant a deeper look.",
+    review_2:
+      "NolanAI has not only revolutionized our workflow but also enhanced our decision-making process with its innovative features. It's not just a tool; it's a vital asset that keeps you competitive in the fast-paced world of production. Embrace it, and you'll never be left behind.",
+    image: damon,
+  },
+  {
+    name: "Bryce Hirschberg",
+    title: "Director • Writer • Editor • Actor",
+    review_img_1: imdb,
+    review_img_2: insta,
+    review_1: "As an independent filmmaker, NolanAI makes life so much easier.",
+    review_2:
+      "From ironing out my story ideas, to creating a pitch deck, to doing ALL of my pre-production, it is the most advanced, AI enhanced, all in one production assistant.",
+    review_3: "Wearing multiple hats has never been more fun.",
+    image: bryce,
+  },
+  {
+    name: "Mike Wech",
+    title: "Producer • Editor • Writer",
+    review_img_1: imdb,
+    review_img_2: world,
+    review_1: "NolanAI has the ability to be a game changer for producers.",
+    review_2:
+      "What used to take days could soon take hours and the technology is constantly improving. I was happy that the developers were quick to address the issues and eager to learn how the program can become more efficient for producers.",
+    review_3:
+      "The incorporated new features that we asked for and are eager to help filmmakers streamline production.",
+    review_4: "Highly recommended.",
+    image: mike,
   },
 ];
 
@@ -166,5 +303,12 @@ export const features = [
     icon: <MdOutlineBolt />,
     title: "Exceptional Quality",
     subtitle: "Surpass the Highest Industry Standards",
+  },
+];
+
+export const AiFeature = [
+  {
+    to: "/features",
+    icon: {},
   },
 ];
