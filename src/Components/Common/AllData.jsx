@@ -157,7 +157,6 @@ import {
       name: "Michael D. Korolenko",
       title: "Writer • Producer • Director",
       review_img_1: imdb,
-      review_img_2: world,
       review_1:
         "I am incredibly pleased with NolanAI for scriptwriting—so much so that I'm recommending it to my college scriptwriting class.",
       review_2:
@@ -171,8 +170,6 @@ import {
     {
       name: "R.M - Reel Whisperer",
       title: "Producer",
-      review_img_1: imdb,
-      review_img_2: world,
       review_1:
         "NolanAI has transformed the way I produce films. The script breakdown and scheduling features have automated tedious tasks, allowing my team to focus on what truly matters-making the movie. The efficiency and transparency brought by NolanAI has saved us time and resources and allowed us to places those resources back into production. Every little bit counts and we have felt the ease of burden on our below the line. As a producer in Bollywood, managing productions is a constant challenge, NolanAI has become an indispensable part of my workflow. R.M!",
       image: rm,
@@ -190,8 +187,6 @@ import {
     {
       name: "Undercover Director 🎥",
       title: "Director",
-      review_img_1: imdb,
-      review_img_2: world,
       review_1:
         "On the current film I am directing we have been using NolanAI in ways that even theirI team was surprised to hear about. The automated storyboard generation in particular. Of course we used it for my storyboarding of the film as a first go but our department heads have been using it to come up with their own unique and creative ideas for the film. Art department. Set design. Hair and makeup as well as my DP. We are all messing around with it and as a result have had an explosion of ideas and creativity. With all the fear, apprehension of new technology, and too many options offering too little, NolanAI has been a fresh and exciting new face. Even allowing me to explore innovative suggestions for camera angles and scene compositions that elevate the visual storytelling of my film. The pitch deck and coverage features were excellent in development, but we have also been using them onset to explore on the day and in the moment possibilities. Creatively liberating to use. I am thrilled to see where this goes.",
       image: undercover,
@@ -276,7 +271,6 @@ import {
       name: "Mike Wech",
       title: "Producer • Editor • Writer",
       review_img_1: imdb,
-      review_img_2: world,
       review_1: "NolanAI has the ability to be a game changer for producers.",
       review_2:
         "What used to take days could soon take hours and the technology is constantly improving. I was happy that the developers were quick to address the issues and eager to learn how the program can become more efficient for producers.",
