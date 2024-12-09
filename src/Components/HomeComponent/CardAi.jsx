@@ -15,7 +15,6 @@ import {
 
 const CardAi = () => {
   const { loginWithRedirect } = useAuth0();
-
   return (
     <div className="flex justify-center items-center pt-16 px-16 flex-col relative z-[1] max-sm:py-[10px] max-sm:px-0">
       <div className="flex flex-row flex-wrap justify-center items-start w-full gap-8 max-sm:px-[20px]">
