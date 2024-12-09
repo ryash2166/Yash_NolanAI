@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "../Common/Slider";
 import { MdOutlineArrowForward } from "react-icons/md";
-import { items } from "./HomeData";
+import { items } from "../Common/AllData";
 
 const ReviewSlider = () => {
   return (

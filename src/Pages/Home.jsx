@@ -9,6 +9,7 @@ import Button from "../Components/Common/Button";
 import Secure from "../Components/HomeComponent/Secure";
 import AiFeature from "../Components/HomeComponent/AiFeature";
 import SkyRocket from "../Components/HomeComponent/SkyRocket";
+import ReviewSlider from "../Components/HomeComponent/ReviewSlider";
 
 // Assets
 import poster from "../assets/asset_0.jpeg";
@@ -25,9 +26,11 @@ import bg2 from "../assets/asset_23.svg";
 // Icons
 import { AiOutlineDiscord } from "react-icons/ai";
 import { MdOutlineArrowForward } from "react-icons/md";
-import ReviewSlider from "../Components/HomeComponent/ReviewSlider";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Home = () => {
+const { loginWithRedirect } = useAuth0()
+
   return (
     <>
       <main>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import iconbg from "../../assets/asset_24.svg";
 import Button from "../Common/Button";
-import { tabs } from "./HomeData";
+import { tabs } from "../Common/AllData";
 import { MdOutlineArrowForward } from "react-icons/md";
 
 const AiFeature = () => {

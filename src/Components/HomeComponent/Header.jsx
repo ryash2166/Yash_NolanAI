@@ -4,8 +4,9 @@ import banner3 from "../../assets/asset_16.svg";
 import poster from "../../assets/asset_0.jpeg";
 import Button from "../Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
-
+import { useAuth0 } from "@auth0/auth0-react";
 const Header = () => {
+  const { loginWithRedirect } = useAuth0()
   return (
     <section className="relative ">
       <div className="relative h-full">
@@ -37,6 +38,7 @@ const Header = () => {
               <Button
                 text="Start Creating"
                 iconSize="w-6 h-6"
+                onClick={loginWithRedirect}
                 icon={MdOutlineArrowForward}
               />
             </a>

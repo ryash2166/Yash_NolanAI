@@ -62,6 +62,7 @@ const Student = () => {
                 All features unlimited in Pro plan and custom solutions
               </div>
               <Button
+                to='/for-studio'
                 className="mt-[30px]"
                 text="See More"
                 icon={MdForwardToInbox}

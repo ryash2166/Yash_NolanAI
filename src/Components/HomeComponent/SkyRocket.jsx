@@ -1,6 +1,6 @@
 import React from "react";
 import Sky from "../Common/Sky";
-import { features } from "./HomeData";
+import { features } from "../Common/AllData";
 
 const SkyRocket = () => {
   return (

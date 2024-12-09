@@ -8,6 +8,7 @@ import Pricing from "./Pages/Pricing";
 import Features from "./Pages/Features";
 import Blog from "./Pages/Blog";
 import Testimonials from "./Pages/Testimonials";
+import ForStudio from "./Components/PricingComponent/ForStudio";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -18,6 +19,7 @@ const App = () => {
         { path: "/", element: <Home /> },
         { path: "/aboutus", element: <AboutUs /> },
         { path: "/pricing", element: <Pricing /> },
+        { path: "/for-studio", element: <ForStudio /> },
         { path: "/features", element: <Features /> },
         { path: "/testimonials", element: <Testimonials /> },
         { path: "/blog", element: <Blog /> },

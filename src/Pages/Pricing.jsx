@@ -6,7 +6,7 @@ import {
   toggleOptions,
   tabsData,
   featuresData,
-} from "../Components/PricingComponent/Data";
+} from "../Components/Common/AllData";
 
 import Tabs from "../Components/PricingComponent/Tabs";
 import Toggle from "../Components/PricingComponent/Toggle";

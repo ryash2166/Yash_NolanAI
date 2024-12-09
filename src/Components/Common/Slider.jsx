@@ -73,8 +73,12 @@ const Carousel = ({ item, buttonProps }) => {
                   </p>
                 </div>
                 <div className="flex items-center mb-3 gap-2">
-                  <img src={item.review_img_1} alt="" className="w-8 h-8" />
-                  <img src={item.review_img_2} alt="" className="w-8 h-8" />
+                  {item.review_img_1 && (
+                    <img src={item.review_img_1} alt="" className="w-8 h-8" />
+                  )}
+                  {item.review_img_2 && (
+                    <img src={item.review_img_2} alt="" className="w-8 h-8" />
+                  )}
                 </div>
                 <div className="text-white text-base leading-6">
                   <p className="mb-3">{item.review_1}</p>
@@ -87,7 +91,7 @@ const Carousel = ({ item, buttonProps }) => {
           ))}
         </Slider>
       </div>
-      { buttonProps && <Button {...buttonProps} /> }
+      {buttonProps && <Button {...buttonProps} />}
     </div>
   );
 };
