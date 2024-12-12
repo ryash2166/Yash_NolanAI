@@ -24,7 +24,7 @@ const VideoEditor = () => {
       </div>
       <div className="relative z-[1] text-white">
         <h2 className="m-0 text-[64px] font-light text-[#e4931d]">
-          NoalAI <span className="font-bold">Video Editor</span>
+          AI <span className="font-bold">Video Editor</span>
         </h2>
         <p className="text-2xl leading-7">
           Transform your scripts into cinematic visuals with our upcoming AI

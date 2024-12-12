@@ -20,30 +20,35 @@ const CardAi = () => {
       <div className="flex flex-row flex-wrap justify-center items-start w-full gap-8 max-sm:px-[20px]">
         <Cards
           to="/features"
+          className="max-w-[415px]"
           icon={MdOutlineDriveFileRenameOutline}
           title="AI Co-Pilot Editor"
           description="Overcome writer's block with AI-driven prompts and suggestions, ensuring a seamless writing flow."
         />
         <Cards
           to="/"
+          className="max-w-[415px]"
           icon={MdMovieFilter}
           title="AI Pitch Deck"
           description="Create compelling pitch decks effortlessly with ready-made templates. NolanAI extracts crucial details to suggest casts and visualize your story."
         />
         <Cards
           to="/"
+          className="max-w-[415px]"
           icon={MdOutlineTranslate}
           title="Multilingual"
           description="Work seamlessly in Spanish, French, Portuguese, or Russian - no language barriers to hold back your projects."
         />
         <Cards
           to="/"
+          className="max-w-[415px]"
           icon={MdOutlineQueryStats}
           title="Analytics"
           description="Instantly identify plot holes and receive thorough script coverage analysis. Perfect your screenplay with targeted insights and scores."
         />
         <Cards
           to="/"
+          className="max-w-[415px]"
           icon={MdOutlineListAlt}
           title="Automated Breakdown"
           description="Streamline pre-production with automatic breakdowns that quickly organize script elements for efficient planning."

@@ -51,21 +51,26 @@ const ForStudio = () => {
       </div>
       <div className="flex justify-center items-center pt-16 px-16 relative z-[1]  flex-col max-sm:pt-[10px] max-sm:px-0">
         <div className="space-y-8">
+          <div className="flex justify-center items-center">
+            <Cards
+              to=""
+              className="max-w-fit"
+              icon={MdOutlinePsychology}
+              title="All-in-One Editor"
+              description="Experience the future of script editing with our AI-powered co-pilot. Enhance your creative projects with intelligent assistance that simplifies the editing process, making it faster and more precise."
+            />
+          </div>
           <Cards
             to=""
-            icon={MdOutlinePsychology}
-            title="All-in-One Editor"
-            description="Experience the future of script editing with our AI-powered co-pilot. Enhance your creative projects with intelligent assistance that simplifies the editing process, making it faster and more precise."
-          />
-          <Cards
-            to=""
+            className="max-w-fit"
             icon={MdAnalytics}
             title="Analytics & Pre-Production Management"
             description="Streamline your pre-production process with comprehensive analytics. Make data-driven decisions, plan your projects effectively, and ensure every element of your production is optimized for success."
           />
-          <div className="flex flex-row justify-center ">
+          <div className="flex justify-center items-center mb-5">
             <Cards
               to=""
+              className="max-w-fit"
               icon={MdOutlineWavingHand}
               title="Customization & Integration"
               description="Tailor NolanAI to suite your studio's unique needs. Our platform offers seamless integration with industry-standard tools, ensuring that it fits perfectly into your existing workflow."
@@ -84,11 +89,11 @@ const ForStudio = () => {
         <div className="inline-flex gap-6 items-center justify-start max-xl:flex-col ">
           <div className="w-[421px] justify-center flex self-stretch items-center gap-1 max-xl:w-[unset]">
             <div className="w-[336px] h-[336px] max-sm:w-[290px] max-sm:h-[290px] relative justify-center flex  items-center">
-            <img
-              src={cover}
-              alt=""
-              className="min-w-[536px] min-h-[536px] relative max-sm:hidden"
-            />
+              <img
+                src={cover}
+                alt=""
+                className="min-w-[536px] min-h-[536px] relative max-sm:hidden"
+              />
               <img
                 src={book}
                 alt=""
@@ -122,7 +127,9 @@ const ForStudio = () => {
               Join NolanAI Enterprise. <br />
               For more details, contact us.
             </p>
-            <p className="text-center text-[28px] text-[#da8813] font-semibold">enterprise @ nolanai.app</p>
+            <p className="text-center text-[28px] text-[#da8813] font-semibold">
+              enterprise @ nolanai.app
+            </p>
           </div>
         </div>
       </div>

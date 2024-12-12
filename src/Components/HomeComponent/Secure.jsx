@@ -9,7 +9,7 @@ const Secure = () => {
           <div className="w-[336px] h-[336px] max-sm:w-[290px] max-sm:h-[290px] relative justify-center flex  items-center">
             <img
               src={secure}
-              alt=""
+              alt="sheild"
               className="absolute z-[1] w-full h-full text-transparent"
             />
           </div>
@@ -36,7 +36,7 @@ const Secure = () => {
         </div>
       </div>
     </div>
-  );
+  );  
 };
 
 export default Secure;

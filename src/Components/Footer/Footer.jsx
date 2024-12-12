@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <p className="mt-[5px] text-[#e9ebf2] ">
             <NavLink
-              to="/"
+              to="/testimonials"
               className="text-sm font-normal leading-6 tracking-[0.1em] text-right"
             >
               Testimonials

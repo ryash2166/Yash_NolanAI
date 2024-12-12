@@ -5,8 +5,10 @@ import poster from "../../assets/asset_0.jpeg";
 import Button from "../Common/Button";
 import { MdOutlineArrowForward } from "react-icons/md";
 import { useAuth0 } from "@auth0/auth0-react";
+
 const Header = () => {
-  const { loginWithRedirect } = useAuth0()
+  const { loginWithRedirect } = useAuth0();
+  
   return (
     <section className="relative ">
       <div className="relative h-full">
@@ -22,11 +24,11 @@ const Header = () => {
               Bring your film project to life
             </h1>
             <h3 className="m-0 text-white text-[40px] font-extralight max-md:text-4xl max-md:text-center max-md:font-light">
-              from <span></span>
+              from {" "}
               <span className="text-[64px] mr-2 font-bold max-md:text-5xl max-md:text-center">
                 idea
               </span>
-              to <span></span>
+              to {" "}
               <span className="text-[64px] font-bold max-md:text-5xl max-md:text-center">
                 production
               </span>
@@ -74,7 +76,7 @@ const Header = () => {
                   muted
                   controls
                   playsInline
-                ></video>
+                />
               </div>
             </div>
           </div>

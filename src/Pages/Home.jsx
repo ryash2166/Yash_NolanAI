@@ -228,8 +228,8 @@ const { loginWithRedirect } = useAuth0()
           <AiFeature />
         </div>
 
-        <div className="flex pt-16 px-16 relative items-center flex-col justify-center gap-8 z-[1] max-xl:px-[20px] max-xl:pt-0 max-xl:flex-col max-sm:py-[10px] max-sm:px-[20px]">
-          <div className="relative z-[1] pb-8 text-white text-center">
+        <div className="flex pt-16 px-16 relative items-center flex-col justify-center z-[1] max-xl:px-[20px] max-xl:pt-0 max-xl:flex-col max-sm:py-[10px] max-sm:px-[20px]">
+          <div className="relative z-[1] text-white text-center">
             <h3 className="text-[40px] font-bold">
               Skyrocket your productivity
             </h3>

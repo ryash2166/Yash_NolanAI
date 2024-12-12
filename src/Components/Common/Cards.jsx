@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import logo from "../../assets/asset_25.svg";
 import { Link } from "react-router";
 
-const Cards = ({ to, icon: Icon, title, description }) => {
+const Cards = ({ to, icon: Icon, className = "", title, description }) => {
   return (
     <Link
       to={to}
-      className="flex flex-grow flex-shrink basis-[415px] max-w-fit"
+      className={`flex flex-grow flex-shrink basis-[415px]  ${className}`}
     >
       <div className="flex flex-col items-center justify-center gap-8">
         <div className="flex justify-center items-center relative py-2 w-[90px] h-[90px]">

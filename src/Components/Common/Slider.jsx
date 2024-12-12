@@ -45,7 +45,7 @@ const Carousel = ({ item, buttonProps }) => {
   };
 
   return (
-    <div className="flex justify-center items-center pt-16 px-16 relative z-[1] flex-col max-sm:px-0 max-sm:py-[20px]">
+    <div className="flex justify-center items-center pt-16 px-16 relative z-[1] flex-col max-md:px-0 max-sm:py-[20px]">
       <div className="max-w-full max-md:w-auto max-md:px-5">
         <Slider {...settings}>
           {item.map((item, index) => (
