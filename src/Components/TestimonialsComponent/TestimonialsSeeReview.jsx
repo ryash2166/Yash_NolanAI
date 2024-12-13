@@ -11,14 +11,14 @@ const TestimonialsSeeReview = () => {
       <div className="flex flex-col items-start justify-start">
         <div className="self-stretch py-8 px-16 max-sm:px-4 justify-start items-center gap-16 inline-flex mt-[60px] z-[1] max-sm:mt-[30px]">
           <div className="inline-flex flex-1 flex-col justify-center items-start">
-            <div className="self-stretch justify-start items-center gap-3 inline-flex">
-              <div className="text-[#ffffff70]  break-words tracking-[0.03px] font-light text-[13px]">
+            <div className="self-stretch justify-start items-center gap-2 inline-flex">
+              <div className="text-[#ffffff70]  break-words tracking-[0.03px] font-light text-[14px]">
                 <Link to="/">NOLAN</Link>
                 {" // "}
                 <Link to="/testimonials">TESTIMONIALS</Link>
                 {" // "}
               </div>
-              <div className="text-white text-[13px]">{review.name}</div>
+              <div className="text-white text-[14px]">{review.name}</div>
             </div>
           </div>
         </div>

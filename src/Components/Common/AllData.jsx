@@ -135,7 +135,7 @@ import {
   
   export const items = [
     {
-      id: 1,
+      id: "h-j-grayson",
       name: "H.J. Grayson",
       title: "Writer • Producer • Director",
       review_img_1: imdb,
@@ -146,7 +146,7 @@ import {
       image: hj,
     },
     {
-      id: 2,
+      id: "boubkar-benzabat",
       name: "Boubkar Benzabat",
       title: "Director of Photography • Editor • Producer • Director",
       review_img_1: imdb,
@@ -156,7 +156,7 @@ import {
       image: boubkar,
     },
     {
-      id: 3,
+      id: "michael-d-korolenko",
       name: "Michael D. Korolenko",
       title: "Writer • Producer • Director",
       review_img_1: imdb,
@@ -171,7 +171,7 @@ import {
       image: michael,
     },
     {
-      id: 4,
+      id: "r-m-reel-whisperer",
       name: "R.M - Reel Whisperer",
       title: "Producer",
       review_1:
@@ -179,7 +179,7 @@ import {
       image: rm,
     },
     {
-      id: 5,
+      id: "sean-kael-williams",
       name: "Sean Kael williams",
       title: "Actor • Writer • Producer",
       review_img_1: imdb,
@@ -190,7 +190,7 @@ import {
       image: sean,
     },
     {
-      id: 6,
+      id: "undercover-director",
       name: "Undercover Director 🎥",
       title: "Director",
       review_1:
@@ -198,7 +198,7 @@ import {
       image: undercover,
     },
     {
-      id: 7,
+      id: "thomas-beaudoin",
       name: "Thomas Beaudoin",
       title: "Actor • Writer • Producer • Director",
       review_img_1: imdb,
@@ -208,7 +208,7 @@ import {
       image: thomas,
     },
     {
-      id: 8,
+      id: "patrick-muldoon",
       name: "Patrick Muldoon",
       title: "Actor • Producer • Writer",
       review_img_1: imdb,
@@ -217,7 +217,7 @@ import {
       image: patrick,
     },
     {
-      id: 9,
+      id: "adam-g-simon",
       name: "Adam G. Simon",
       title: "Writer • Producer • Actor",
       review_img_1: imdb,
@@ -231,7 +231,7 @@ import {
       image: adam,
     },
     {
-      id: 10,
+      id: "damarrus-grant",
       name: "Damarrus Grant",
       title: "Actor • Director • Writer",
       review_img_1: imdb,
@@ -242,7 +242,7 @@ import {
       image: damarrus,
     },
     {
-      id: 11,
+      id: "daniel-farag",
       name: "Daniel Farag",
       title: "Actor • Producer • Writer",
       review_img_1: imdb,
@@ -257,7 +257,7 @@ import {
       image: daniel,
     },
     {
-      id: 12,
+      id: "damon-h-chung",
       name: "Damon H. Chung",
       title: "Cinematographer • Producer",
       review_img_1: imdb,
@@ -269,7 +269,7 @@ import {
       image: damon,
     },
     {
-      id: 13,
+      id: "bryce-hirscherg",
       name: "Bryce Hirschberg",
       title: "Director • Writer • Editor • Actor",
       review_img_1: imdb,
@@ -281,7 +281,7 @@ import {
       image: bryce,
     },
     {
-      id: 14,
+      id: "mike-wech",
       name: "Mike Wech",
       title: "Producer • Editor • Writer",
       review_img_1: imdb,
