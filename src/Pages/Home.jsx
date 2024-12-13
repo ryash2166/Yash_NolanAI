@@ -29,7 +29,7 @@ import { MdOutlineArrowForward } from "react-icons/md";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Home = () => {
-const { loginWithRedirect } = useAuth0()
+  const { loginWithRedirect } = useAuth0();
 
   return (
     <>
@@ -89,7 +89,7 @@ const { loginWithRedirect } = useAuth0()
               description="Providing tailored solutions to overcome writer's block and streamlining your creative process."
               buttonProps={{
                 className: "w-fit flex",
-                to:'/features',
+                to: "/features",
                 text: "NolanAI for Screenwriters",
                 icon: MdOutlineArrowForward,
                 iconSize: "w-6 h-6",
@@ -124,7 +124,7 @@ const { loginWithRedirect } = useAuth0()
               description="revolutionizing the filmmaking process for producers: cutting costs and resources by automating script analysis. Helping create outstanding pitch decks resonating with your project"
               buttonProps={{
                 className: "w-fit flex",
-                to:'/features',
+                to: "/features",
                 text: "NolanAI for Producers",
                 icon: MdOutlineArrowForward,
                 iconSize: "w-6 h-6",
@@ -157,7 +157,7 @@ const { loginWithRedirect } = useAuth0()
               description="saving you valuable time by automating repetitive tasks and facilitating seamless collaboration with the rest of your team. assisting in crafting the perfect schedule for a smooth production workflows of your creative vision."
               buttonProps={{
                 className: "w-fit flex",
-                to:'/features',
+                to: "/features",
                 text: "NolanAI for Directors",
                 icon: MdOutlineArrowForward,
                 iconSize: "w-6 h-6",

@@ -1,14 +1,14 @@
-import React from 'react'
-import FeatureTitle from '../Components/FeatureComponent/FeatureTitle'
-import FeatureGrid from '../Components/FeatureComponent/FeatureGrid'
+import React from "react";
+import FeatureTitle from "../Components/FeatureComponent/FeatureTitle";
+import FeatureGrid from "../Components/FeatureComponent/FeatureGrid";
 
 const Features = () => {
   return (
     <div>
-      <FeatureTitle/>
-      <FeatureGrid/>
+      <FeatureTitle />
+      <FeatureGrid />
     </div>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;

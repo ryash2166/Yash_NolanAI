@@ -17,7 +17,14 @@ const TestimonialsTitle = () => {
             Testimonials
           </h1>
           <h3 className="m-0 font-light -tracking-[0.4px] text-[40px] max-lg:text-[28px] max-sm:text-center">
-            See what <strong className="font-bold text-[64px] max-sm:text-[48px]">Our</strong> customers say about <strong className="font-bold text-[64px] max-sm:text-[48px]">NolanAI. </strong>
+            See what{" "}
+            <strong className="font-bold text-[64px] max-sm:text-[48px]">
+              Our
+            </strong>{" "}
+            customers say about{" "}
+            <strong className="font-bold text-[64px] max-sm:text-[48px]">
+              NolanAI.{" "}
+            </strong>
           </h3>
         </div>
       </div>

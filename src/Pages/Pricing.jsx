@@ -16,7 +16,7 @@ import Comparison from "../Components/PricingComponent/Comparison";
 
 const Pricing = () => {
   const [selectedOption, setSelectedOption] = useState("monthly");
-  
+
   return (
     <div className="relative ">
       <div className="max-sm:relative h-full">
