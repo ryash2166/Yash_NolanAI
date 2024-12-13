@@ -73,8 +73,8 @@ const Carousel = ({ item, buttonProps }) => {
                   </p>
                 </div>
                 <div className="flex items-center mb-3 gap-2">
-                {item.review_img_2 && (
-                    <img src={item.review_img_2} alt="" className="w-8 h-8" />
+                {item.review_img_1 && (
+                    <img src={item.review_img_1} alt="" className="w-8 h-8" />
                   )}
                   {item.review_img_2 && (
                     <img src={item.review_img_2} alt="" className="w-8 h-8" />
