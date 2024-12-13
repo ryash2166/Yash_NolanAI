@@ -4,6 +4,7 @@ import FeatureCard from "./FeatureCard";
 // Icon
 import {
   MdOutlineAutoAwesome,
+  MdOutlineCoPresent,
   MdOutlineDeveloperBoard,
   MdOutlineDriveFileRenameOutline,
   MdOutlineEmojiEvents,
@@ -17,7 +18,6 @@ import {
   MdOutlineSchedule,
   MdOutlineTroubleshoot,
   MdOutlineVideoCameraFront,
-  MdOutlineVideoFile,
 } from "react-icons/md";
 
 const FeatureGrid = () => {
@@ -26,10 +26,10 @@ const FeatureGrid = () => {
       <div className="flex justify-center relative w-full mb-6 max-xl:p-0 max-sm:mb-0">
         <div className="flex w-full justify-start gap-6 px-16 max-xl:flex-col max-xl:justify-start max-xl:items-start max-sm:p-0 max-sm:items-center max-sm:justify-center max-sm:flex-col max-sm:gap-[inherit]">
           <FeatureCard
-            icon={MdOutlineVideoFile}
+            icon={MdOutlineMovieFilter}
             iconBackground="rgb(30, 18, 74)"
-            title="Video Editor (coming soon)"
-            description="A bold, fiery new video editor feature is on its way. Stay tuned for the Hot Red Party—your next creative game-changer! 🚀"
+            title="AI Video Generator"
+            description="Effortlessly create dynamic and professional-grade shots for your videos. With NolanAI Video Editor, customize angles, movements, and cinematic styles to bring your storyboards to life."
             route="/features/analytics-dashboard"
           />
           <FeatureCard
@@ -51,7 +51,7 @@ const FeatureGrid = () => {
       <div className="flex justify-center relative w-full mb-6 max-xl:p-0 max-sm:mb-0">
         <div className="flex w-full justify-start gap-6 px-16 max-xl:flex-col max-xl:justify-start max-xl:items-start max-sm:p-0 max-sm:items-center max-sm:justify-center max-sm:flex-col max-sm:gap-[inherit]">
           <FeatureCard
-            icon={MdOutlineMovieFilter}
+            icon={MdOutlineCoPresent}
             iconBackground=" rgb(218, 136, 19)"
             title="AI PITCH DECK"
             description="The essential tool for filmmakers seeking to craft captivating pitch decks effortlessly."

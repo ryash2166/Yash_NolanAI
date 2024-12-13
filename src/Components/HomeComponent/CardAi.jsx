@@ -6,11 +6,11 @@ import { useAuth0 } from "@auth0/auth0-react";
 // Icons
 import {
   MdOutlineDriveFileRenameOutline,
-  MdMovieFilter,
   MdOutlineTranslate,
   MdOutlineListAlt,
   MdOutlineArrowForward,
   MdOutlineQueryStats,
+  MdOutlineMovieFilter,
 } from "react-icons/md";
 
 const CardAi = () => {
@@ -28,7 +28,7 @@ const CardAi = () => {
         <Cards
           to="/"
           className="max-w-[415px]"
-          icon={MdMovieFilter}
+          icon={MdOutlineMovieFilter}
           title="AI Pitch Deck"
           description="Create compelling pitch decks effortlessly with ready-made templates. NolanAI extracts crucial details to suggest casts and visualize your story."
         />

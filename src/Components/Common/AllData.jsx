@@ -9,13 +9,13 @@ import {
     MdOutlineWorkspaces,
     MdOutlineUploadFile,
     MdOutlineNewspaper,
-    MdMovieFilter,
     MdOutlinePhotoSizeSelectActual,
     MdOutlineSchedule,
     MdOutlineFormatListBulleted,
     MdOutlineDirectionsRun,
     MdOutlineSavings,
     MdOutlineBolt,
+    MdOutlineMovieFilter,
   } from "react-icons/md";
   
   import adam from "../../assets/Testimonials/Adam.png";
@@ -86,7 +86,7 @@ import {
         },
         {
           text: "Easily create compelling pitch decks that are directly linked to your script, enhancing the pitch process.",
-          icon: <MdMovieFilter className="w-6 h-6 text-[#2c79ea]" />,
+          icon: <MdOutlineMovieFilter className="w-6 h-6 text-[#2c79ea]" />,
         },
         {
           text: "Access a vast library of film industry images, including posters and cast member photos, to find the perfect visual representation for your projects.",
@@ -135,6 +135,7 @@ import {
   
   export const items = [
     {
+      id: 1,
       name: "H.J. Grayson",
       title: "Writer • Producer • Director",
       review_img_1: imdb,
@@ -145,6 +146,7 @@ import {
       image: hj,
     },
     {
+      id: 2,
       name: "Boubkar Benzabat",
       title: "Director of Photography • Editor • Producer • Director",
       review_img_1: imdb,
@@ -154,6 +156,7 @@ import {
       image: boubkar,
     },
     {
+      id: 3,
       name: "Michael D. Korolenko",
       title: "Writer • Producer • Director",
       review_img_1: imdb,
@@ -168,6 +171,7 @@ import {
       image: michael,
     },
     {
+      id: 4,
       name: "R.M - Reel Whisperer",
       title: "Producer",
       review_1:
@@ -175,6 +179,7 @@ import {
       image: rm,
     },
     {
+      id: 5,
       name: "Sean Kael williams",
       title: "Actor • Writer • Producer",
       review_img_1: imdb,
@@ -185,6 +190,7 @@ import {
       image: sean,
     },
     {
+      id: 6,
       name: "Undercover Director 🎥",
       title: "Director",
       review_1:
@@ -192,6 +198,7 @@ import {
       image: undercover,
     },
     {
+      id: 7,
       name: "Thomas Beaudoin",
       title: "Actor • Writer • Producer • Director",
       review_img_1: imdb,
@@ -201,6 +208,7 @@ import {
       image: thomas,
     },
     {
+      id: 8,
       name: "Patrick Muldoon",
       title: "Actor • Producer • Writer",
       review_img_1: imdb,
@@ -209,6 +217,7 @@ import {
       image: patrick,
     },
     {
+      id: 9,
       name: "Adam G. Simon",
       title: "Writer • Producer • Actor",
       review_img_1: imdb,
@@ -222,6 +231,7 @@ import {
       image: adam,
     },
     {
+      id: 10,
       name: "Damarrus Grant",
       title: "Actor • Director • Writer",
       review_img_1: imdb,
@@ -232,6 +242,7 @@ import {
       image: damarrus,
     },
     {
+      id: 11,
       name: "Daniel Farag",
       title: "Actor • Producer • Writer",
       review_img_1: imdb,
@@ -246,6 +257,7 @@ import {
       image: daniel,
     },
     {
+      id: 12,
       name: "Damon H. Chung",
       title: "Cinematographer • Producer",
       review_img_1: imdb,
@@ -257,6 +269,7 @@ import {
       image: damon,
     },
     {
+      id: 13,
       name: "Bryce Hirschberg",
       title: "Director • Writer • Editor • Actor",
       review_img_1: imdb,
@@ -268,6 +281,7 @@ import {
       image: bryce,
     },
     {
+      id: 14,
       name: "Mike Wech",
       title: "Producer • Editor • Writer",
       review_img_1: imdb,

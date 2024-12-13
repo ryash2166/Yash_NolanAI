@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-const ImageSection = ({
+export const ImageSection = ({
   imgBg,
   img,
   customStyles,
@@ -33,7 +33,7 @@ const ImageSection = ({
   );
 };
 
-const TextSection = ({
+export const TextSection = ({
   titlePart1,
   titlePart2,
   description,
@@ -58,6 +58,3 @@ const TextSection = ({
     </div>
   );
 };
-
-// Export Components
-export { ImageSection, TextSection };

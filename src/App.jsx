@@ -9,6 +9,7 @@ import Features from "./Pages/Features";
 import Blog from "./Pages/Blog";
 import Testimonials from "./Pages/Testimonials";
 import ForStudio from "./Components/PricingComponent/ForStudio";
+import TestimonialsSeeReview from "./Components/TestimonialsComponent/TestimonialsSeeReview";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -22,6 +23,7 @@ const App = () => {
         { path: "/for-studio", element: <ForStudio /> },
         { path: "/features", element: <Features /> },
         { path: "/testimonials", element: <Testimonials /> },
+        { path: "/testimonials/:id", element: <TestimonialsSeeReview/> },
         { path: "/blog", element: <Blog /> },
       ],
     },
